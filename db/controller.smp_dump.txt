@@ -1,0 +1,14 @@
+
+State Machine - |controller|mainfsm:m1|state_reg
+Name state_reg.1010 state_reg.1001 state_reg.1000 state_reg.0111 state_reg.0110 state_reg.0101 state_reg.0100 state_reg.0011 state_reg.0010 state_reg.0001 state_reg.0000 
+state_reg.0000 0 0 0 0 0 0 0 0 0 0 0 
+state_reg.0001 0 0 0 0 0 0 0 0 0 1 1 
+state_reg.0010 0 0 0 0 0 0 0 0 1 0 1 
+state_reg.0011 0 0 0 0 0 0 0 1 0 0 1 
+state_reg.0100 0 0 0 0 0 0 1 0 0 0 1 
+state_reg.0101 0 0 0 0 0 1 0 0 0 0 1 
+state_reg.0110 0 0 0 0 1 0 0 0 0 0 1 
+state_reg.0111 0 0 0 1 0 0 0 0 0 0 1 
+state_reg.1000 0 0 1 0 0 0 0 0 0 0 1 
+state_reg.1001 0 1 0 0 0 0 0 0 0 0 1 
+state_reg.1010 1 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,85 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do controller_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/ahmet/AppData/Local/quartus/Homework_2 {C:/Users/ahmet/AppData/Local/quartus/Homework_2/controller.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:29:58 on Apr 19,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ahmet/AppData/Local/quartus/Homework_2" C:/Users/ahmet/AppData/Local/quartus/Homework_2/controller.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module controller
+# -- Compiling module mainfsm
+# -- Compiling module aludec
+# -- Compiling module instrdec
+# 
+# Top level modules:
+# 	controller
+# End time: 21:29:58 on Apr 19,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog tb_controller
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:30:14 on Apr 19,2026
+# vlog -reportprogress 300 tb_controller 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# ** Error: (vlog-7) Failed to open design unit file "tb_controller" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 21:30:14 on Apr 19,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# c:/altera_lite/25.1std/questa_fse/win64/vlog failed.
+vlog tb_controller.sv
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:30:26 on Apr 19,2026
+# vlog -reportprogress 300 tb_controller.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:30:26 on Apr 19,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.testbench -voptargs=+acc
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -gui -l msim_transcript work.testbench -voptargs="+acc" 
+# Start time: 21:30:43 on Apr 19,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "mainfsm(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.controller(fast)
+# Loading work.mainfsm(fast)
+# Loading work.aludec(fast)
+# Loading work.instrdec(fast)
+run -all
+#         40 tests completed with          0 errors
+# ** Note: $stop    : tb_controller.sv(81)
+#    Time: 415 ns  Iteration: 1  Instance: /testbench
+# Break in Module testbench at tb_controller.sv line 81
+# End time: 21:56:24 on Apr 19,2026, Elapsed time: 0:25:41
+# Errors: 0, Warnings: 1

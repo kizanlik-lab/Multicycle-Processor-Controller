@@ -1,0 +1,5 @@
+1 7 mainfsm 4 fast 74 C:/Users/ahmet/AppData/Local/quartus/Homework_2/simulation/questa/rtl_work 0 0 131072 0 222 0
+1 6 aludec 4 fast 74 C:/Users/ahmet/AppData/Local/quartus/Homework_2/simulation/questa/rtl_work 0 0 0 0 45 0
+1 8 instrdec 4 fast 74 C:/Users/ahmet/AppData/Local/quartus/Homework_2/simulation/questa/rtl_work 0 0 0 0 24 0
+1 10 controller 4 fast 74 C:/Users/ahmet/AppData/Local/quartus/Homework_2/simulation/questa/rtl_work 0 0 0 0 64 0
+1 9 testbench 4 fast 74 C:/Users/ahmet/AppData/Local/quartus/Homework_2/simulation/questa/rtl_work 0 0 0 0 224 0

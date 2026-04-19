@@ -1,0 +1,158 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/ahmet/AppData/Local/quartus/Homework_2/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1776623443
+VIzSUIV2[_?dMjhh:1jg8^1
+04 9 4 work testbench fast 0
+=1-e8b0c5b954bf-69e51f53-190-17f0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U5 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+valudec
+Z2 2C:/Users/ahmet/AppData/Local/quartus/Homework_2/controller.sv
+Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z4 !s110 1776623398
+!i10b 1
+!s100 :kngNCL0;ao[L@kN8TQ_93
+ID>EEjECA]h;0Ie]d9U>U]1
+S1
+R1
+Z5 w1776623311
+Z6 8C:/Users/ahmet/AppData/Local/quartus/Homework_2/controller.sv
+Z7 FC:/Users/ahmet/AppData/Local/quartus/Homework_2/controller.sv
+!i122 0
+L0 191 25
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z10 !s108 1776623398.000000
+Z11 !s107 C:/Users/ahmet/AppData/Local/quartus/Homework_2/controller.sv|
+Z12 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ahmet/AppData/Local/quartus/Homework_2|C:/Users/ahmet/AppData/Local/quartus/Homework_2/controller.sv|
+!i113 0
+Z13 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -sv -work work +incdir+C:/Users/ahmet/AppData/Local/quartus/Homework_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 tCvgOpt 0 defaultOptions 1085333592
+vcontroller
+R2
+R3
+R4
+!i10b 1
+!s100 gncAU?aXWl;P@O`^?fdK63
+IM`eMJA6zRh0QBO8zak[9C2
+S1
+R1
+R5
+R6
+R7
+!i122 0
+L0 1 42
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vinstrdec
+R2
+R3
+R4
+!i10b 1
+!s100 @_;fJ6@Y:NhcTRPOXFN6P1
+IZ<k;A<<?SHa0Do>mQOb>C2
+S1
+R1
+R5
+R6
+R7
+!i122 0
+L0 217 15
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vmainfsm
+R2
+R3
+R4
+!i10b 1
+!s100 zek?JfXgOHJ:B4ILPX7Xz1
+IE2b7bXaAG26fYdOzhCI0[1
+S1
+R1
+R5
+R6
+R7
+!i122 0
+L0 44 146
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vtestbench
+2tb_controller.sv
+R3
+!s110 1776623426
+!i10b 1
+!s100 _TE3ci3`M]^60nUl_S3j32
+I@5=7`^?alfW<>C2TGFh]H0
+S1
+R1
+w1776612163
+8tb_controller.sv
+Ftb_controller.sv
+!i122 1
+L0 6 80
+R8
+R9
+r1
+!s85 0
+31
+!s108 1776623426.000000
+!s107 tb_controller.sv|
+!s90 -reportprogress|300|tb_controller.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R15
